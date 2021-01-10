@@ -34,6 +34,8 @@
                         Specify a numeric font-size:<br />
                         <asp:TextBox ID="txbxFontSize" runat="server"></asp:TextBox>
                         <br />
+                        <asp:Label ID="lblError" runat="server"></asp:Label>
+                        <br />
                         <br />
                         <asp:CheckBox ID="chkbxDefaultPic" runat="server" Text="Add the Default Picture" />
                         <br />
@@ -42,10 +44,27 @@
                         <asp:TextBox ID="txbxGreeting" runat="server" Height="110px" TextMode="MultiLine" Width="270px"></asp:TextBox>
                         <br />
                         <br />
-                        <asp:Button ID="btnUpdate" runat="server" Text="Update" Width="108px" />
+                        <asp:Button ID="btnUpdate" runat="server" Text="Update" Width="108px" OnClick="btnUpdate_Click" />
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;
                         <asp:Panel ID="panelBdayCard" runat="server" Height="395px" Width="277px">
+                            <div class="auto-style2">
+                                <br />
+                                <asp:Label ID="lblCardGreeting" runat="server"></asp:Label>
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <asp:Image ID="imgOnCard" runat="server" Height="181px" Width="169px" />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                            </div>
                         </asp:Panel>
                     </td>
                 </tr>

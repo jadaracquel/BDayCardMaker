@@ -51,6 +51,15 @@ namespace BDayCardMaker
         protected global::System.Web.UI.WebControls.TextBox txbxFontSize;
 
         /// <summary>
+        /// lblError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblError;
+
+        /// <summary>
         /// chkbxDefaultPic control.
         /// </summary>
         /// <remarks>
@@ -85,5 +94,23 @@ namespace BDayCardMaker
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel panelBdayCard;
+
+        /// <summary>
+        /// lblCardGreeting control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCardGreeting;
+
+        /// <summary>
+        /// imgOnCard control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgOnCard;
     }
 }
